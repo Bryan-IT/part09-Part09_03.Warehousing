@@ -51,6 +51,6 @@ public class Warehouse {
     }
 
     public String toString() {
-        return "balance = " + this.balance + ", space left " + howMuchSpaceLeft();
+        return ": balance = " + this.balance + ", space left " + howMuchSpaceLeft();
     }
 }
