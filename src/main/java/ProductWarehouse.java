@@ -7,7 +7,7 @@ public class ProductWarehouse extends Warehouse {
         this.productName = productName;
     }
 
-    public void setProductName(String name){
+    public void setName(String name){
         this.productName = name;
     }
 

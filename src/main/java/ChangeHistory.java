@@ -38,7 +38,7 @@ public class ChangeHistory {
     public double average(){
         if(!changes.isEmpty()){
             double total = 0;
-            for(int i = 0; i<= changes.size(); i++){
+            for(int i = 0; i< changes.size(); i++){
                 total += changes.get(i);
             }
             return (double) total/changes.size();
